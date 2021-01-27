@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px/18px arial, sans-serif, "Microsoft YaHei", tahoma;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: 0;
+}
+
+html,
+body {
+    height: 1000px;
+}
+
+.ul {
+    padding: 10px;
+}
+
+.mask {
+    display: none;
+    position: relative;
+    width: 390px;
+    height: 502px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: 1px solid #D9D9D9;
+}
+
+.head {
+    height: 47px;
+    width: 100%;
+    background: #F7F7F7;
+    position: relative;
+}
+
+.head_title {
+    width: auto;
+    height: 18px;
+    font-size: 16px;
+    font-family: 宋体;
+    font-weight: bold;
+    text-indent: 50px;
+    margin-right: 29px;
+    display: block;
+    text-overflow: ellipsis;
+    text-align: left;
+    box-sizing: content-box;
+    background: url("https://passport.baidu.com/passApi/img/baidu_logo_24_718a6c4.png") 18px 8px no-repeat;
+    padding: 15px 0px 13px;
+    overflow: hidden;
+}
+
+.close {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+
+.close a {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url('./images/icon.png') -10px -6px no-repeat;
+}
+
+.contain {
+    transition: .3 ease;
+}
+
+.login {
+    padding: 0 20px;
+}
+
+.phone_login {
+    margin: 10px 0;
+    text-align: right;
+}
+
+.color {
+    font-size: 13px;
+    background: url('./images/phone.png') no-repeat;
+    padding-left: 15px;
+}
+
+.color:hover {
+    color: #2e7fdb;
+    text-decoration: underline;
+}
+
+.form .input {
+    display: block;
+    position: relative;
+    height: 16px;
+    padding: 12px 35px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+}
+
+.input {
+    width: 276px;
+}
+
+.form .u {
+    width: 350px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.l_username,
+.l_password {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: 0;
+    height: 24px;
+    overflow: hidden;
+    padding: 0 0 0 24px;
+    background: url('./images/login.png') 0 -69px no-repeat;
+    z-index: 11;
+}
+
+.l_password {
+    background-position: 0 -147px;
+}
+
+.verify {
+    display: flex;
+}
+
+.verifyImg {
+    border: 1px solid #ddd;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 42px;
+}
+
+.verifyCode {
+    width: 160px;
+    padding: 0 0 0 15px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+
+.change {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.check {
+    display: flex;
+    font-size: 14px;
+}
+
+.auto_log {
+    margin-right: auto;
+}
+
+.checkbox {
+    vertical-align: middle;
+}
+
+.button_submit {
+    width: 350px;
+    background-color: #4490f7;
+    display: block;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.reg {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 55px;
+}
+
+.auth {
+    border-top: 1px solid #eee;
+    padding: 8px 0 5px 15px;
+}
+
+.qq,
+.wb {
+    display: block;
+    background: url('./images/icon.png') -73px -127px no-repeat;
+    height: 32px;
+    width: 38px;
+    overflow: hidden;
+}
+
+.auth_ul {
+    padding: 8px 0 0;
+    display: flex;
+}
+
+.wb {
+    background-position: 0px -127px;
+    margin-left: 15px;
+}
+
+.qc {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    background: url('./images/icon.png') no-repeat -129px -47px;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.code {
+    z-index: 11;
+    position: absolute;
+    left: 0;
+    top: 47px;
+    width: 390px;
+    height: 450px;
+    background: #fff;
+    transition: .3 ease;
+    display: none;
+}
+
+.code_con {
+    width: 160px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.code_title {
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.code_img {
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
+}
+
+.code_img img {
+    width: 135px;
+    height: 135px;
+}

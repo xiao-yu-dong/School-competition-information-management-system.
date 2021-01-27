@@ -1,0 +1,58 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+#outer/*外框*/
+{
+	width: 80%;
+	height: 800px;
+	border: 1px solid red;
+	margin: 20px auto;
+	position: relative;
+	padding-left: 50px;
+}
+#one
+{
+	margin: 5px 340px;
+	float: left;
+	position: absolute;
+	right: 0px;
+}
+.Event_type{
+	margin-right: 10px;
+}
+#two/*赛事名称*/
+{
+	float: left;
+	font-size: 20px;
+	margin: 5px 10px;
+	margin-right: 200px;
+}
+#three{
+	float: left;
+	/*margin: 5px 0px;*/
+}
+#four{
+	position: absolute;
+	top: 203px;
+	left: 50px;
+}
+#five{
+	position: absolute;
+	top: 233px;
+	left: 800px;
+}
+
+/*.sponsor{
+	float: left;
+	font-size: 15px;
+}*/
+#sop1
+{
+	position: relative;
+	bottom: 20px;
+	left: 150px;
+	/*margin-bottom: 20px;
+	margin-left: 150px;*/
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5da659bf-f66c-4e45-bf21-c70b5d97fada" name="demo" url="http://localhost/jingsai">
+        <fileTransfer port="0" mountedRoot="D:\xampp\htdocs\jingsai" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
